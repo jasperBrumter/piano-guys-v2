@@ -13,6 +13,7 @@
     "core-js": "^3.3.2",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
+    "vue-i18n": "^8.15.0",
     "vue-router": "^3.1.3",
     "vuex": "^3.0.1"
   },
@@ -43,7 +44,9 @@
     ],
     "rules": {
       "no-console": 0,
-      "allowIndentationTabs": true
+      "allowIndentationTabs": true,
+      "no-mixed-spaces-and-tabs": 0,
+      "no-tabs": 0
     },
     "parserOptions": {
       "parser": "babel-eslint"

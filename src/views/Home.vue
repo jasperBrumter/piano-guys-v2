@@ -25,7 +25,7 @@ export default {
   }
   #home {
     margin: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Dosis', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;

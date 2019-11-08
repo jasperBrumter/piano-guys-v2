@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"home": {
+			"description": "The Piano Guys, based in Montreal, have reached mastery of piano repairs and restorations over 30 years of experience.",
+			"title": "Piano Guys | Master Repair and Restoration"
+		}
+	},
+	"url": {
+		"gallery": "gallery",
+		"contact": "contact-us"
+	},
+	"menu": {
+		"home": "Home",
+		"gallery": "Gallery",
+		"restoration": "Restoration",
+		"contact": "Contact"
+	},
+	"home": {
+		"title1": "PIANO GUYS",
+		"subtitle1": "Piano Restoration Experts based in Montreal",
+		"discover": "Discover",
+		"image_alt_text": "Les Piano Guys mettent en oeuvre l'excellence dans le domaine du piano, et leur reconstruction en etat d'origine"
+	},
+	"restoration": {
+		"main": {
+			"subtitle": "Follow the restoration of a Steinway Piano",
+			"title": "1917 Steinway Model A3 (6’4”)"
+		},
+		"image1": {
+			"description": "This is an extreme example of soundboard repair. All cracks have been repaired with soundboard material salvaged from pianos of the same era.",
+			"alt-text": "Master piano artisans prepare to repair a grand piano soundboard.",
+			"tooltip": "The soundboard of a Steinway grand piano"
+		},
+		"image2": {
+			"description": "Soundboard and bridge repairs are complete. The bridges are re-notched, graphited and re-pinned; the soundboard has been stripped and sanded.",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"image3": {
+			"description": "Next, a dry transfer decal is burnished to the soundboard and finish coats are applied.",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"image4": {
+			"description": "The plate is sanded and decontaminated in preparation for re-guilding.",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"image5": {
+			"description": "A mixture of bronze powders and shellac are applied, followed by high gloss nitrocellulose lacquer clear coats.",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"image6": {
+			"description": "Many hours are spent painting the black lettering on the casting.",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"image7": {
+			"description": "The plate is reset with meticulous attention to string down-bearing tolerances.",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"image8": {
+			"description": "All plate bolts and screws are polished and the harp is dressed with new felt before the stringing process begins.",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"image9": {
+			"description": "The tenor and treble registers are strung first...",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"image10": {
+			"description": "... followed by bass strings, dampers, and listing cloth.",
+			"alt-text": "",
+			"tooltip": ""
+		},
+		"calltoaction": "THere are many other steps involved in this process. More information is available."
+	},
+	"contact": {
+		"quote": "Rebuilding pianos is not just a job, It’s a calling; a time honored craft performed by artisans who really know and care about pianos. A piano is not just a piece of furniture, but rather an instrument capable of reacting to a player’s emotions, technique and creativity. Three pianos of the same make, size and close in years can sound as different as night and day. They can be dark and mysterious or rich and singing.",
+		"email": "email@email.ca",
+		"address": "Montreal, QC",
+		"phone": "555-555-5555"
+	}
+}

@@ -1,15 +1,5 @@
 <template>
   <div class="image_container">
-    <img
-      :class="{
-      'hidden': selectedBackground !== 1,
-      'background-image-mobile': false,
-      'background-image': true,
-      'animate-image-left': startAnimation,
-      'animate-image-right': !startAnimation,
-      }"
-      role="background-image"
-      src="../assets/background/background_picture_1.jpg"/>
     <img :class="{
       'hidden': selectedBackground !== 2,
       'background-image-mobile': false,
@@ -37,13 +27,32 @@
       }"
       role="background-image"
       src="../assets/background/background_picture_4.jpg"/>
+    <img :class="{
+      'hidden': selectedBackground !== 5,
+      'background-image-mobile': false,
+      'background-image': true,
+      'animate-image-left': startAnimation,
+      'animate-image-right': !startAnimation,
+      }"
+      role="background-image"
+      src="../assets/background/background_picture_5.jpg"/>
+    <img :class="{
+      'hidden': selectedBackground !== 6,
+      'background-image-mobile': false,
+      'background-image': true,
+      'animate-image-left': startAnimation,
+      'animate-image-right': !startAnimation,
+      }"
+      role="background-image"
+      src="../assets/background/background_picture_6.jpg"/>
+
     <div class="image_overlay"></div>
     <div class="image_overlay_text">
-      <h1>he</h1>
-      <h2>daedaedae</h2>
-      <div class="cta">
-        adaeda
-      </div>
+      <h1>{{ $t('home.title1')}}</h1>
+      <h2>{{ $t('home.subtitle1')}}</h2>
+      <router-link to="gallery"><div class="cta">
+        {{ $t('home.discover')}}
+      </div></router-link>
       <!-- <h1>{{ $t('section1.title1') }}</h1>
       <h2>{{ $t('section1.subtitle1')}}</h2>
       <div class="cta">
@@ -58,8 +67,8 @@
 export default {
   name: 'CSSRotatingBackgrounds',
   data: () => ({
-    backgrounds: [1, 2, 3, 4],
-    selectedBackground: 1,
+    backgrounds: [2, 3, 4, 5, 6],
+    selectedBackground: 2,
     startAnimation: true,
   }),
   mounted() {
@@ -69,7 +78,7 @@ export default {
     changeBackground() {
       setInterval(() => {
         if (this.selectedBackground === this.backgrounds.length) {
-          this.selectedBackground = 1;
+          this.selectedBackground = 2;
         } else {
           this.selectedBackground += 1;
         }
@@ -86,7 +95,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .hidden {
   display: none !important;
 }
@@ -128,12 +137,23 @@ export default {
 .background-image {
   position: absolute;
     display: block;
-    max-width:300%;
+    max-width:800%;
     max-height:110%;
     width: auto;
     height: auto;
+    min-height: 100%;
 }
+ a {
+     text-decoration: none ;
+  }
+a:hover
+  {
+    text-decoration:none;
+    cursor:pointer;
+   }
 .cta {
+  color: rgba(230,198,62,1);
+  transition: .5s ease;
   width: 250px;
   height: 60px;
   border-radius: 5px;
@@ -142,6 +162,12 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none !important;
+  &:hover {
+    transition: .5s ease;
+    background-color: rgba(100,50,22,1);
+    color: white;
+  }
 }
 .background-image-mobile {
     position: absolute;

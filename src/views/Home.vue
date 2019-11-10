@@ -10,6 +10,33 @@ import CSSRotatingBackgrounds from '../components/CSSRotatingBackgrounds.vue';
 
 export default {
   name: 'home',
+  metaInfo() {
+    return {
+      title: this.$t('meta.home.title'),
+      meta: [
+        {
+          vmid: 'title',
+          name: 'title',
+          content: this.$t('meta.home.title'),
+        },
+        {
+          vmid: 'description',
+          name: 'description',
+          content: this.$t('meta.home.description'),
+        },
+        {
+          vmid: 'og:description',
+          name: 'og:description',
+          content: this.$t('meta.home.description'),
+        },
+        {
+          property: 'og:title',
+          content: this.$t('meta.home.title'),
+          vmid: 'og:title',
+        },
+      ],
+    };
+  },
   components: {
     CSSRotatingBackgrounds,
   },

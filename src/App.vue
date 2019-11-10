@@ -10,13 +10,13 @@
       }">
       <h1 class="close" @click="toggleMenu">X</h1>
       <h2 class="options"
-      to="/" @click="redirectTo('/')">{{ $t('menu.home') }}</h2> |
+      to="/" @click="redirectTo('/')">{{ $t('pages.home') }}</h2> |
       <h2 class="options"
-      to="/gallery" @click="redirectTo('/gallery')">{{ $t('menu.gallery') }}</h2> |
+      to="/gallery" @click="redirectTo('/gallery')">{{ $t('pages.gallery') }}</h2> |
       <h2 class="options"
-      to="/restoration" @click="redirectTo('/restoration')">{{ $t('menu.restoration') }}</h2> |
+      to="/restoration" @click="redirectTo('/restoration')">{{ $t('pages.restoration') }}</h2> |
       <h2 class="options"
-      to="/contact" @click="redirectTo('/contact')">{{ $t('menu.contact') }}</h2>
+      to="/contact" @click="redirectTo('/contact')">{{ $t('pages.contact') }}</h2>
       <div class="options">
           <img v-if="$i18n.locale === 'en'"
             @click="toggleLanguage"
@@ -34,10 +34,10 @@
       <div class="nav-left">
       </div>
       <div class="nav-central-menu">
-        <router-link to="/"><h2>{{ $t('menu.home') }}</h2></router-link> |
-        <router-link to="/gallery"><h2>{{ $t('menu.gallery') }}</h2></router-link> |
-        <router-link to="/restoration"><h2>{{ $t('menu.restoration') }}</h2></router-link> |
-        <router-link to="/contact"><h2>{{ $t('menu.contact') }}</h2></router-link>
+        <router-link to="/"><h2>{{ $t('pages.home') }}</h2></router-link> |
+        <router-link to="/restoration"><h2>{{ $t('pages.restoration') }}</h2></router-link> |
+        <router-link to="/gallery"><h2>{{ $t('pages.gallery') }}</h2></router-link> |
+        <router-link to="/contact"><h2>{{ $t('pages.contact') }}</h2></router-link>
       </div>
       <div class="nav-right">
         <div class="langswitcher">

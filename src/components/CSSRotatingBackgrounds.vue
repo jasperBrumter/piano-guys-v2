@@ -8,7 +8,8 @@
       'animate-image-right': !startAnimation,
       }"
       role="background-image"
-      src="../assets/background/background_picture_2.jpg"/>
+      src="../assets/background/background_picture_2.jpg"
+      :alt="$t('seo.home.background2')"/>
     <img :class="{
       'hidden': selectedBackground !== 3,
       'background-image-mobile': false,
@@ -17,7 +18,8 @@
       'animate-image-right': !startAnimation,
       }"
       role="background-image"
-      src="../assets/background/background_picture_3.jpg"/>
+      src="../assets/background/background_picture_3.jpg"
+      :alt="$t('seo.home.background3')"/>
     <img :class="{
       'hidden': selectedBackground !== 4,
       'background-image-mobile': false,
@@ -26,7 +28,8 @@
       'animate-image-right': !startAnimation,
       }"
       role="background-image"
-      src="../assets/background/background_picture_4.jpg"/>
+      src="../assets/background/background_picture_4.jpg"
+      :alt="$t('seo.home.background4')"/>
     <img :class="{
       'hidden': selectedBackground !== 5,
       'background-image-mobile': false,
@@ -35,7 +38,8 @@
       'animate-image-right': !startAnimation,
       }"
       role="background-image"
-      src="../assets/background/background_picture_5.jpg"/>
+      src="../assets/background/background_picture_5.jpg"
+      :alt="$t('seo.home.background5')"/>
     <img :class="{
       'hidden': selectedBackground !== 6,
       'background-image-mobile': false,
@@ -44,13 +48,14 @@
       'animate-image-right': !startAnimation,
       }"
       role="background-image"
-      src="../assets/background/background_picture_6.jpg"/>
+      src="../assets/background/background_picture_6.jpg"
+      :alt="$t('seo.home.background6')"/>
 
     <div class="image_overlay"></div>
     <div class="image_overlay_text">
       <h1>{{ $t('home.title1')}}</h1>
       <h2>{{ $t('home.subtitle1')}}</h2>
-      <router-link to="gallery"><div class="cta">
+      <router-link to="restoration"><div class="cta">
         {{ $t('home.discover')}}
       </div></router-link>
       <!-- <h1>{{ $t('section1.title1') }}</h1>

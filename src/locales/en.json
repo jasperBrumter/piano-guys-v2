@@ -2,14 +2,31 @@
 	"meta": {
 		"home": {
 			"description": "The Piano Guys, based in Montreal, have reached mastery of piano repairs and restorations over 30 years of experience.",
-			"title": "Piano Guys | Master Repair and Restoration"
+			"title": "Piano Guys | Master Piano Repair, Restoration and Tuning Montreal"
+		},
+		"restoration": {
+			"description": "Follow the step-by-step complete restoration of a early-20th century Steinway grand piano, restored to its original condition by experts.",
+			"title": "Restoring 1917 Steinway A3 step by step | Piano Guys"
+		},
+		"contact": {
+			"description": "Contact information for the Piano Guys. Get in touch if you are interested in purchasing quality vintage pianos, or have any questions concerning our expert repair process.",
+			"title": "Get in touch | Piano Guys"
+		},
+		"gallery": {
+			"description": "Picture Gallery of vintage fully renovated pianos. Include Mason & Hamlin, Steinway & Sons, Chickering & Sons, Henry Miller, 19th to 20th century pianos.",
+			"title": "Piano Gallery | Piano Guys"
 		}
 	},
-	"url": {
-		"gallery": "gallery",
-		"contact": "contact-us"
+	"seo": {
+		"home": {
+			"background2": "Fully renovated 20th century grand piano. Pristine condition and repair.",
+			"background3": "Mason & Hamlin soundboard from Boston, USA. Fully stripped, sanded with finish coats. Burnished dry transfer decal.",
+			"background4": "Close-up detail of a Grand Piano screws holding the strings. Reguilded plate, with lacquer clear coats.",
+			"background5": "A 20th century Steinway Grand Piano during the re-stringing process, the tenor and registers are strung first, followed by bass strings, dampers, and listing cloth.",
+			"background6": "Fully renovated Mason & Hamlin close-up shot. Beautiful reguilding of the soundboard and expertly strung with fine-tuning."
+		}
 	},
-	"menu": {
+	"pages": {
 		"home": "Home",
 		"gallery": "Gallery",
 		"restoration": "Restoration",
@@ -18,8 +35,7 @@
 	"home": {
 		"title1": "PIANO GUYS",
 		"subtitle1": "Piano Restoration Experts based in Montreal",
-		"discover": "Discover",
-		"image_alt_text": "Les Piano Guys mettent en oeuvre l'excellence dans le domaine du piano, et leur reconstruction en etat d'origine"
+		"discover": "Discover"
 	},
 	"restoration": {
 		"main": {
@@ -28,60 +44,79 @@
 		},
 		"image1": {
 			"description": "This is an extreme example of soundboard repair. All cracks have been repaired with soundboard material salvaged from pianos of the same era.",
-			"alt-text": "Master piano artisans prepare to repair a grand piano soundboard.",
-			"tooltip": "The soundboard of a Steinway grand piano"
+			"alt-text": "Master piano artisans prepare to repair a grand piano soundboard. Experts realize pianos are optimal with their original soundboard, so repair is always preferred to replacement.",
+			"tooltip": "The soundboard of a Steinway grand piano, before being repaired."
 		},
 		"image2": {
 			"description": "Soundboard and bridge repairs are complete. The bridges are re-notched, graphited and re-pinned; the soundboard has been stripped and sanded.",
-			"alt-text": "",
-			"tooltip": ""
+			"alt-text": "After stripping and sanding, the soundboard cracks are filled with soundboard material from Grand pianos of the same era, giving a smooth finish.",
+			"tooltip": "A repaired Steinway soundboard, after stripping and sanding."
 		},
 		"image3": {
 			"description": "Next, a dry transfer decal is burnished to the soundboard and finish coats are applied.",
-			"alt-text": "",
-			"tooltip": ""
+			"alt-text": "After applying a dry transfer decal, the soundboard is in its original pristine condition.",
+			"tooltip": "The Steinway dry transfer decal is meticulously burnished on the soundboard."
 		},
 		"image4": {
 			"description": "The plate is sanded and decontaminated in preparation for re-guilding.",
-			"alt-text": "",
-			"tooltip": ""
+			"alt-text": "The plate is removed from the Steinway piano, sanded and is ready for re-guilding.",
+			"tooltip": "The plate visibly needs some attention."
 		},
 		"image5": {
 			"description": "A mixture of bronze powders and shellac are applied, followed by high gloss nitrocellulose lacquer clear coats.",
-			"alt-text": "",
-			"tooltip": ""
+			"alt-text": "Expert finishing with appliance of bronze powders followed by lacquer for optimal results.",
+			"tooltip": "The plate is sprayed with bronze powders. Ready to be placed back into the piano."
 		},
 		"image6": {
 			"description": "Many hours are spent painting the black lettering on the casting.",
-			"alt-text": "",
-			"tooltip": ""
+			"alt-text": "Every detail counts, the lettering is time-consuming but important for the appearance of the Grand Piano.",
+			"tooltip": "Steinway lettering is time-consumingly repainted. Every detail counts."
 		},
 		"image7": {
 			"description": "The plate is reset with meticulous attention to string down-bearing tolerances.",
-			"alt-text": "",
-			"tooltip": ""
+			"alt-text": "The plate is expertly reset. meticulous attention to string down-bearing tolerances.",
+			"tooltip": "The plate is expertly reset."
 		},
 		"image8": {
 			"description": "All plate bolts and screws are polished and the harp is dressed with new felt before the stringing process begins.",
-			"alt-text": "",
-			"tooltip": ""
+			"alt-text": "Final adjustments before the piano is re-strung. Screws and plate bolts are polished by hands by our piano artisans.",
+			"tooltip": "New felt is placed, after the polishing of all plate bolts and screws. "
 		},
 		"image9": {
-			"description": "The tenor and treble registers are strung first...",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "The tenor and bass registers are strung first...",
+			"alt-text": "Experts with years of experience in re-stringing and tuning, stringing begins with tenor and bass registers",
+			"tooltip": "Here, tenor registers are strung first"
 		},
 		"image10": {
 			"description": "... followed by bass strings, dampers, and listing cloth.",
-			"alt-text": "",
-			"tooltip": ""
+			"alt-text": "The final registers are strung. The restoration of this early 20th century grand piano is complete.",
+			"tooltip": "The full restoration is complete."
 		},
-		"calltoaction": "THere are many other steps involved in this process. More information is available."
-	},
+		"calltoaction": "There are of course many other steps involved in this process. Click here to get in touch with us!"
+	}, 
 	"contact": {
 		"quote": "Rebuilding pianos is not just a job, It’s a calling; a time honored craft performed by artisans who really know and care about pianos. A piano is not just a piece of furniture, but rather an instrument capable of reacting to a player’s emotions, technique and creativity. Three pianos of the same make, size and close in years can sound as different as night and day. They can be dark and mysterious or rich and singing.",
 		"email": "email@email.ca",
 		"address": "Montreal, QC",
 		"phone": "555-555-5555"
+	},
+	"gallery": {
+		"1917SteinwayA3-1": "Fully renovated 1917 Steinway A3, with its original soundboard and pristine playing condition",
+		"1917SteinwayA3-2": "The finish of the piano body is back to its original splendor. Patiently executed by our master artisans.",
+		"1917SteinwayA3-3": "Close-up shot of the soundboard, with re-notched bridges. Expert renovation has been fulfilled.",
+		"1917SteinwayA3-4": "Another view of the 1917 Steinway grand piano. Perfectly finished by master renovators.",
+		"1917SteinwayA3-5": "Steinway and Sons soundboard, expert stringing and fine-tuning brings sublime melody and harmony.",
+		"1917SteinwayA3-6": "The keyboard and pedals of the Steinway grand piano are also perfecly cleaned, ready to be played",
+		"1917SteinwayA3-7": "The lettering is patiently re-painted by hand to ensure meticulous appearance for the 1917 Steinway grand piano.",
+		"1917SteinwayA3-8": "Close-up keyboard shot, Steinway and Sons logo and dark-toned piano",
+		"HenryMiller1": "Another Grand Piano, a Henry Miller 20th century. Renovated to its original splendor by master artisans with dozens of years of experience.",
+		"HenryMiller2": "Full View of the Henry Miller grand piano, renovated in Montreal by Piano Guys.",
+		"1925SteinwayB-1": "Wide-angle view of Black finished Steinway and Sons grand piano from 1925, beautiful concerto piano.",
+		"1925SteinwayB-2": "An enticing picture of a 1925 Steinway and Sons grand piano, fully renovated to its original prime condition with piano stool.",
+		"background1": "The case of a Chickering Grand Piano, fully emptied before all parts are renovated to their original prime condition",
+		"background2": "The Belly of the Piano is responsible for hosting the soundboard, bridges, strings. It is the most visually pleasing part of the piano",
+		"background3": "Inside a Grand Piano, the Action is responsible for triggering the hammers that create the sounds. It must be fine-tuned to perfection by experts.",
+		"background4": "An entire Grand Piano may be very impressive when emptied entirely for renovations. The Piano Guys have had years of experience handling grand pianos",
+		"background5": "A snapshot of some of the tools necessary in the restoration of a piano's body, the outer shell. Other reparators would opt not to undertake such a large project"
 	}
 }

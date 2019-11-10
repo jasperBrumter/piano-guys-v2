@@ -1,11 +1,17 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import Meta from 'vue-meta';
 import Home from '../views/Home.vue';
 // import * as Text from '../locales/en.json';
 
 Vue.use(VueRouter);
-
-console.log(this);
+Vue.use(Meta, {
+  keyName: 'metaInfo',
+  attribute: 'data-vue-meta',
+  ssrAttribute: 'data-vue-meta-server-rendered',
+  tagIDKeyName: 'vmid',
+  refreshOnceOnNavigation: true,
+});
 
 const routes = [
   {

@@ -1,94 +1,122 @@
 {
 	"meta": {
-		"description": "Les Piano Guys mettent en oeuvre l'excellence dans le domaine du piano, et leur reconstruction en etat d'origine"
+		"home": {
+			"description": "Les Piano Guys, basés à Montréal, ont acquis une maîtrise des réparations et restaurations de pianos sur 30 ans d'expérience.",
+			"title": "Piano Guys | Maître réparation, restauration et optimisation de pianos à Montréal"
+		},
+		"restoration": {
+			"description": "Suivez pas à pas la restauration complète d'un piano à queue Steinway du début du XXe siècle, remis à son état d'origine par des experts.",
+			"title": "Restaurer un Steinway A3 de 1917 pas à pas | Piano Guys"
+		},
+		"contact": {
+			"description": "Informations de contact pour les pianistes. Contactez-nous si vous êtes intéressé par l'achat de pianos vintage de qualité ou si vous avez des questions concernant notre processus de réparation par des experts à Montréal.",
+			"title": "Entrez en contact | Piano Guys"
+		},
+		"gallery": {
+			"description": "Galerie de photos de pianos d'époque entièrement rénovés. Comprend les groupes Mason & Hamlin, Steinway & Sons, Chickering & Sons, Henry Miller, pianos des XIXe au XXe siècles.",
+			"title": "La Gallerie | Piano Guys"
+		}
 	},
-	"url": {
-		"gallery": "gallerie",
-		"contact": "contactez-nous"
+	"seo": {
+		"home": {
+			"background2": "Piano à queue du 20ème siècle entièrement rénové. Réparation méticuleuse et remise à son état d'origine.",
+			"background3": "La table d'harmonie Mason & Hamlin de Boston, USA. Entièrement dénudée, poncée avec une couche de finition. Autocollant transféré à sec avec expertise.",
+			"background4": "Détail gros plan d'un piano à queue, et des cordes. Plaque reconstituée, laquée de vernis.",
+			"background5": "Un piano à queue Steinway du XXe siècle pendant le processus de ré-cordage, les tenors sont cordés en premier, suivis des cordes de basse, des amortisseurs et du chiffon listeur.",
+			"background6": "Plan rapproché d'un piano à queue Mason & Hamlin entièrement rénové. Magnifique dorure de la table d'harmonie et finement ajusté avec précision."
+		}
 	},
-	"menu": {
+	"pages": {
 		"home": "Accueil",
 		"gallery": "Gallerie",
-		"restoration": "Réparation",
+		"restoration": "Restauration",
 		"contact": "Contact"
 	},
 	"home": {
 		"title1": "PIANO GUYS",
-		"subtitle1": "Maître Restaurateurs de Pianos",
-		"discover": "Découvrir",
-		"subtitle2": "Based in Montreal, Canada",
-		"image_alt_text": "Les Piano Guys mettent en oeuvre l'excellence dans le domaine du piano, et leur reconstruction en etat d'origine"
-	},
-	"section2": {
-		"subtitle1": "More about pianos",
-		"title1": "The 3 Major Parts of Piano Restoration",
-		"field1": "The Case",
-		"subfield1": "Lid, legs, pedal lyre, music rack, lid prop, hinges, etc. This is what you see when you look at the piano. It is the furniture part of the piano.",
-		"field2": "The Belly",
-		"subfield2": "The soundboard, bridges, strings, plate/harp, tuning pins, belly board, etc. The Belly is the part that is responsible for giving the piano the ability to make the sound that a piano produces.",
-		"field3": "The Piano “Action”",
-		"subfield3": "The action is the connecting device between the player and the piano. You push down the key, at the far end of the key is the damper lever, which is now lifted off the string, then a series of devices send the hammer upwards striking the string and making a sound. The damper then shuts down the sound when the key is released."
+		"subtitle1": "Maître Artisans de Pianos basés à Montréal",
+		"discover": "Découvrez par vous-même"
 	},
 	"restoration": {
 		"main": {
-			"subtitle": "Suivez chaque étape d'une restauration",
-			"title": "Steinway Modèle B 1925 (6’10.5”)"
+			"subtitle": "Suivez la restauration d'un piano Steinway & Sons",
+			"title": "1917 Steinway modèle A3 (6 pieds 4)"
 		},
 		"image1": {
-			"description": "Our master piano artisans have extensive experience in repairing soundboards and bridges. The soundboard is pressed up from underneath, the ribs are reglued. Shims made from soundboard material are used to fill the routed grooves.",
-			"alt-text": "Master piano artisans prepare to repair a grand piano soundboard.",
-			"tooltip": "The soundboard of a Steinway grand piano"
+			"description": "Il s'agit d'un exemple extrême de réparation de table d'harmonie. Toutes les fissures ont été réparées avec du matériau de table d'harmonie récupéré sur des pianos de la même époque. La réparation est avantageuse par rapport au remplacement d'une table d'harmonie.",
+			"alt-text": "Les maîtres artisans pianistes se préparent à réparer une table d'harmonie pour piano à queue. Les experts savent que les pianos sont optimaux avec leur table d'harmonie d'origine. La réparation est donc préférable au remplacement.",
+			"tooltip": "La table d'harmonie d'un piano à queue Steinway, avant d'être réparée."
 		},
 		"image2": {
-			"description": "The bridges are renotched, graphited and repinned; the soundboard is stripped, sanded, bleached and finish coats are applied.",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "Les réparations de la table d'harmonie et des ponts sont terminées. Les ponts sont re-crantés, graphités et épinglés; la table d'harmonie a été décapée et poncée.",
+			"alt-text": "Après le décapage et le ponçage, les fissures de la table d'harmonie sont remplies avec le matériau de la table d'harmonie provenant des pianos Grand de la même époque, pour une finition lisse.",
+			"tooltip": "Une table d'harmonie Steinway réparée, après décapage et ponçage."
 		},
 		"image3": {
-			"description": "",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "Ensuite, un décalque de transfert à sec est appliqué sur la table d’harmonie et des couches de finition sont appliquées.",
+			"alt-text": "Après avoir appliqué un décalque de transfert à sec, la table d'harmonie est dans son état d'origine.",
+			"tooltip": "Le logo Steinway est transféré à sec, puis la table d’harmonie est minutieusement polie et lacquée."
 		},
 		"image4": {
-			"description": "",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "La plaque est poncée et décontaminée en vue de la re-dorure, pour retrouver sa splendeur d'antans.",
+			"alt-text": "La plaque est retirée du piano Steinway, poncée et prête à être re-dorée pour retrouver sa splendeur.",
+			"tooltip": "La plaque a besoin de redorure."
 		},
 		"image5": {
-			"description": "",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "Un mélange de poudres de bronze et de gomme laque est appliqué, suivi d'un vernis de nitrocellulose à haute brillance. Un magnifique résultat qui demande expérience et application.",
+			"alt-text": "Finition experte avec application de poudres de bronze suivies de laque pour des résultats optimaux.",
+			"tooltip": "La plaque est pulvérisée avec des poudres de bronze. Prête à être replacée dans le piano."
 		},
 		"image6": {
-			"description": "",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "Chaque détail compte, nous passons de nombreuses heures à repeindre le lettrage noir sur le casting.",
+			"alt-text": "Chaque détail compte, le lettrage prend du temps, mais il est important pour l'apparence du piano à queue.",
+			"tooltip": "Le lettrage Steinway est repeint avec une précision considérable. Chaque détail compte."
 		},
 		"image7": {
-			"description": "",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "La plaque est replacée avec une attention méticuleuse aux tolérances de roulement des cordes.",
+			"alt-text": "La plaque est remise à neuf par un expert. Une attention méticuleuse aux tolérances de roulement des cordes.",
+			"tooltip": "La plaque est replacée en vue de la suite de la restauration."
 		},
 		"image8": {
-			"description": "",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "Tous les boulons et toutes les vis de la plaque sont polis et la harpe revêtue d'un nouveau feutre avant le début du processus de cordage.",
+			"alt-text": "Les derniers réglages avant que le piano ne soit re-cordé. Les vis et les boulons de la plaque sont polis à la main par nos Maître Artisans pianos.",
+			"tooltip": "Un nouveau feutre est placé après le polissage de tous les boulons et vis de la plaque."
 		},
 		"image9": {
-			"description": "",
-			"alt-text": "",
-			"tooltip": ""
+			"description": "La plaque est réinitialisée avec une attention méticuleuse aux tolérances de roulement des cordes.",
+"alt-text": "La plaque est remise à neuf par un expert. Une attention méticuleuse aux tolérances de roulement des cordes.",
+"tooltip": "La plaque est réinitialisée par un expert."
 		},
 		"image10": {
-			"description": "",
-			"alt-text": "",
-			"tooltip": ""
-		}
-	},
+			"description": "... suivi des cordes de basse, des amortisseurs et du chiffon listeur.",
+			"alt-text": "Les registres finaux sont enfilés. La restauration de ce piano à queue du début du 20ème siècle est terminée.",
+			"tooltip": "La restauration complète est terminée."
+		},
+		"calltoaction": "Il y a bien sûr de nombreuses autres étapes dans ce processus. Cliquez ici pour nous contacter!"
+	}, 
 	"contact": {
-		"quote": "Rebuilding pianos is not just a job, It’s a calling; a time honored craft performed by artisans who really know and care about pianos. A piano is not just a piece of furniture, but rather an instrument capable of reacting to a player’s emotions, technique and creativity. Three pianos of the same make, size and close in years can sound as different as night and day. They can be dark and mysterious or rich and singing.",
+		"quote": "Reconstruire des pianos n’est pas seulement un travail, c’est une vocation; un métier de longue date exécuté par des artisans qui connaissent vraiment les pianos et qui s’inquiètent de ces pianos. Un piano n’est pas simplement un meuble, mais plutôt un instrument capable de réagir Les émotions, la technique et la créativité d’un joueur. Trois pianos de la même marque, de même taille et plus proches au cours des années, peuvent être aussi différents que le jour et la nuit.",
 		"email": "email@email.ca",
 		"address": "Montreal, QC",
 		"phone": "555-555-5555"
+	},
+	"gallery": {
+		"1917SteinwayA3-1": "Steinway A3 de 1917 entièrement rénové, avec sa table d'harmonie d'origine et ses conditions de jeu parfaites",
+		"1917SteinwayA3-2": "La finition du corps du piano a retrouvé sa splendeur d'origine. Patiemment exécutée par nos maîtres artisans.",
+		"1917SteinwayA3-3": "Plan rapproché de la table d'harmonie, avec ponts re-crantés. La rénovation effectuée par des experts a été réalisée.",
+		"1917SteinwayA3-4": "Une autre vue du piano à queue Steinway de 1917. Une finition parfaite réalisée par les maîtres rénovateurs.",
+		"1917SteinwayA3-5": "La table d'harmonie de Steinway and Sons, le cordage expert et le réglage précis apportent une mélodie et une harmonie sublimes.",
+		"1917SteinwayA3-6": "Le clavier et les pédales du piano à queue Steinway sont également parfaitement nettoyés, prêts à être utilisés",
+		"1917SteinwayA3-7": "Le lettrage est patiemment repeint à la main pour assurer une apparence soignée au piano à queue Steinway de 1917.",
+		"1917SteinwayA3-8": "Clavier en gros plan, logo Steinway and Sons et piano sombre",
+		"HenryMiller1": "Un autre piano à queue, un Henry Miller du XXe siècle. Rénové dans toute sa splendeur d'origine par des maîtres artisans possédant des dizaines d'années d'expérience.",
+		"HenryMiller2": "Vue complète du piano à queue Henry Miller, rénové à Montréal par Piano Guys.",
+		"1925SteinwayB-1": "Vue grand angle du piano à queue Steinway and Sons fini noir de 1925, magnifique piano de concerto.",
+		"1925SteinwayB-2": "Image attrayante d'un piano à queue Steinway and Sons de 1925, entièrement rénové pour retrouver son état d'origine et son tabouret de piano.",
+		"background1": "Le cas d'un piano à queue Chickering, entièrement vidé avant que toutes les pièces ne soient rénovées à leur état initial",
+		"background2": "Le ventre du piano est responsable de l'hébergement de la table d'harmonie, des ponts, des cordes. C'est la partie du piano qui est visuellement la plus agréable à regarder",
+		"background3": "À l'intérieur d'un piano à queue, l'Action est responsable du déclenchement des marteaux qui créent les sons. Elle doit être réglée à la perfection par des experts.",
+		"background4": "Un piano à queue entier peut être très impressionnant lorsqu'il est vidé complètement à des fins de rénovation. Les Piano Guys ont des années d'expérience dans la manipulation de pianos à queue",
+		"background5": "Un aperçu de quelques-uns des outils nécessaires à la restauration du corps d'un piano, la coque extérieure. D'autres réparateurs choisiraient de ne pas entreprendre un projet d'une telle envergure"
 	}
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-  	<div class="left">
+  	<div class="left" :title="$t('gallery.background5')">
   	</div>
   	<div class="right">
   		<div class="titleContainer">
@@ -20,6 +20,38 @@
   	</div>
   </div>
 </template>
+<script>
+export default {
+  name: 'Contact',
+  metaInfo() {
+    return {
+      title: this.$t('meta.contact.title'),
+      meta: [
+        {
+          vmid: 'title',
+          name: 'title',
+          content: this.$t('meta.contact.title'),
+        },
+        {
+          vmid: 'description',
+          name: 'description',
+          content: this.$t('meta.contact.description'),
+        },
+        {
+          vmid: 'og:description',
+          name: 'og:description',
+          content: this.$t('meta.contact.description'),
+        },
+        {
+          property: 'og:title',
+          content: this.$t('meta.contact.title'),
+          vmid: 'og:title',
+        },
+      ],
+    };
+  },
+};
+</script>
 <style scoped>
 .contact-icon {
 	height: 25px;
@@ -37,7 +69,7 @@
 	.left {
 		width: 50vw;
 		height: 100vh;
-		background-image: url('../assets/section2/background5.jpg');
+		background-image: url('../assets/gallery/section2/background5.jpg');
 		background-position: center;
 		background-size: cover;
 	}
@@ -82,7 +114,6 @@
 	.left {
 		width: 100vw;
 		height: 50%;
-		background-image: url('../assets/section2/background5.jpg');
 	}
   .right {
   	max-width: 100%;

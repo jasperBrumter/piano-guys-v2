@@ -3,7 +3,7 @@
   	<div class="container">
       <img v-for="image in images" class="gallerypicture"
       :src="require(`../../assets/gallery/${image.source}`)"
-        :alt="image.alt" :key="image.source">
+        :alt="image.alt" :key="image.source" :title="image.alt">
   	</div>
   </div>
 </template>
